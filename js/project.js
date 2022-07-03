@@ -55,12 +55,24 @@ if (month_one == "enero"){ //ENERO
   } else if (birthday_one = 20){
     birthday_one = "Capricornio y Acuario"
   } else (birthday_one = "Acuario")
-} else if (month_one == "febrero") { //FEBRERO
+}
+
+else if (month_one == "febrero") { //FEBRERO
   if (day_one < 19){
     birthday_one = "Acuario"
   } else if (day_one >= 20){
     birthday_one = "Piscis"
   } else if (birthday_one = 19)
     birthday_one = "Acuario y Piscis"
+}
+
+else if (month_one == "marzo"){ //MARZO
+  if (day_one < 20) {
+    birthday_one = "Piscis"
+  } else if (day_one >= 21){
+    birthday_one = "Aries"
+  } else if (day_one = 20){
+    birthday_one = "Piscis y Aries"
+  }
 }
 document.write("Eres " + birthday_one)
