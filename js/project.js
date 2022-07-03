@@ -26,8 +26,8 @@ switch(operacion){
 }
 */
 
-let day_one = prompt("Ingrese el día de su cumpleaños");
-let month_one = prompt("Ingrese el mes de su cumpleaños");
+let day_one = prompt("Ingrese el día de su cumpleaños. Ejemplo: 20");
+let month_one = prompt("Ingrese el mes de su cumpleaños. Ejemplo: enero");
 //let day_two = prompt("Ingrese el día de cumpleaños de su pareja");
 //let month_two = prompt("Ingrese el mes de cumpleaños de su pareja");
 
@@ -49,12 +49,18 @@ Sagitario = 23/11 - 21/12
 Capricornio = 22/12 - 20/01
 */
 
-if (month_one == "enero"){
+if (month_one == "enero"){ //ENERO
   if (day_one > 20){
     birthday_one = "Acuario"
   } else if (birthday_one = 20){
     birthday_one = "Capricornio y Acuario"
-  }
-  document.write ("Eres " + birthday_one)
+  } else (birthday_one = "Acuario")
+} else if (month_one == "febrero") { //FEBRERO
+  if (day_one < 19){
+    birthday_one = "Acuario"
+  } else if (day_one >= 20){
+    birthday_one = "Piscis"
+  } else if (birthday_one = 19)
+    birthday_one = "Acuario y Piscis"
 }
-
+document.write("Eres " + birthday_one)
