@@ -50,9 +50,11 @@ Capricornio = 22/12 - 20/01
 */
 
 if (month_one == "enero"){
-  
+  if (day_one > 20){
+    birthday_one = "Acuario"
+  } else if (birthday_one = 20){
+    birthday_one = "Capricornio y Acuario"
+  }
+  document.write ("Eres " + birthday_one)
 }
 
-function couple_two(day_two, month_two) {
-  return birthday_two;
-}
