@@ -1,31 +1,3 @@
-
-/*
-let operacion = prompt ("Digite una operacion: 1 = Suma, 2 = Resta, 3 = Multiplicación y 4 = División");
-let v1 = prompt ("Digite el primer valor");
-let v2 = prompt ("Digite el segundo valor");
-let suma = parseInt(v1) + parseInt(v2);
-let resta = v1 - v2;
-let multiplicación = v1 * v2;
-let division = v1 / v2;
-
-switch(operacion){
-    case "1": 
-        alert(v1 + " + " + v2 + " = " + suma);
-        break;
-    case "2":
-        alert(v1 + " - " + v2 + " = " + resta);
-        break;
-    case "3":
-        alert(v1 + " * " + v2 + " = " + multiplicación);
-        break;
-    case "4":
-        alert(v1 + " / " + v2 + " = " + division);
-        break;
-    default:
-        alert("Por favor digite una operación válida.");
-}
-*/
-
 /*
 Acuario = 21/01 - 19/02
 Piscis = 20/02 - 20/03
@@ -45,8 +17,7 @@ let day_one = prompt("Ingrese el día de su cumpleaños. Ejemplo: 20");
 let month_one = prompt("Ingrese el mes de su cumpleaños. Ejemplo: enero");
 let day_two = prompt("Ingrese el día de cumpleaños de su pareja. Ejemplo: 20");
 let month_two = prompt("Ingrese el mes de cumpleaños de su pareja. Ejemplo: enero");
-
-function couple_one(day_one, month_one) {
+function couple_one(day_one, month_one) { //COUPLE SIGN 1
   return zodiac_one;
 }
 if (month_one == "enero"){ //ENERO
@@ -155,7 +126,7 @@ else if (month_one == "diciembre"){ //DICIEMBRE
   }
 }
 
-function couple_two(day_two, month_two) {
+function couple_two(day_two, month_two) { // COUPLE SIGN 2
   return zodiac_two;
 }
 if (month_two == "enero"){ //ENERO
@@ -263,6 +234,36 @@ else if (month_two == "diciembre"){ //DICIEMBRE
     zodiac_two = "Sagitario y Capricornio"
   }
 }
-
-
 document.write("Tu signo es " + zodiac_one + " y el signo de tu pareja es " + zodiac_two)
+
+
+function compatibility(zodiac_one, zodiac_two){ //COMPATIBILITY
+  return zodiac_match
+}
+
+/*
+let operacion = prompt ("Digite una operacion: 1 = Suma, 2 = Resta, 3 = Multiplicación y 4 = División");
+let v1 = prompt ("Digite el primer valor");
+let v2 = prompt ("Digite el segundo valor");
+let suma = parseInt(v1) + parseInt(v2);
+let resta = v1 - v2;
+let multiplicación = v1 * v2;
+let division = v1 / v2;
+
+switch(operacion){
+    case "1": 
+        alert(v1 + " + " + v2 + " = " + suma);
+        break;
+    case "2":
+        alert(v1 + " - " + v2 + " = " + resta);
+        break;
+    case "3":
+        alert(v1 + " * " + v2 + " = " + multiplicación);
+        break;
+    case "4":
+        alert(v1 + " / " + v2 + " = " + division);
+        break;
+    default:
+        alert("Por favor digite una operación válida.");
+}
+*/
