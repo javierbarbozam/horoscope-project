@@ -34,20 +34,6 @@ let month_one = prompt("Ingrese el mes de su cumpleaños. Ejemplo: enero");
 function couple_one(day_one, month_one) {
   return birthday_one;
 }
-/*
-Acuario = 21/01 - 19/02
-Piscis = 20/02 - 20/03
-Aries = 21/03 - 20/04
-Tauro = 21/04 - 21/05
-Géminis = 22/05 - 21/06
-Cáncer = 22/06 - 22/07
-Leo = 23/07 - 22/08
-Virgo = 23/08 - 22/09
-Libra = 23/09 - 22/10
-Escorpio = 23/10 - 22/11
-Sagitario = 23/11 - 21/12
-Capricornio = 22/12 - 20/01
-*/
 
 if (month_one == "enero"){ //ENERO
   if (day_one > 20){
@@ -75,4 +61,29 @@ else if (month_one == "marzo"){ //MARZO
     birthday_one = "Piscis y Aries"
   }
 }
+
+else if (month_one == "abril") { //ABRIL
+  if (day_one < 20){
+    birthday_one = "Aries"
+  } else if(day_one >=22){
+    birthday_one = "Tauro"
+  } else if (day_one = 21){
+    birthday_one = "Aries y Tauro"
+  }
+}
 document.write("Eres " + birthday_one)
+
+/*
+Acuario = 21/01 - 19/02
+Piscis = 20/02 - 20/03
+Aries = 21/03 - 20/04
+Tauro = 21/04 - 21/05
+Géminis = 22/05 - 21/06
+Cáncer = 22/06 - 22/07
+Leo = 23/07 - 22/08
+Virgo = 23/08 - 22/09
+Libra = 23/09 - 22/10
+Escorpio = 23/10 - 22/11
+Sagitario = 23/11 - 21/12
+Capricornio = 22/12 - 20/01
+*/
