@@ -345,18 +345,3 @@ else if(zodiac_one == "Capricornio"){ //CAPRICORNIO
 }
 
 document.write("Tu signo es " + zodiac_one + " y el signo de tu pareja es " + zodiac_two + " y sus signos tienen " + compatibility)
-
-/*
-Acuario = 21/01 - 19/02
-Piscis = 20/02 - 20/03
-Aries = 21/03 - 20/04
-Tauro = 21/04 - 21/05
-Géminis = 22/05 - 21/06
-Cáncer = 22/06 - 22/07
-Leo = 23/07 - 22/08
-Virgo = 23/08 - 22/09 
-Libra = 23/09 - 22/10
-Escorpio = 23/10 - 22/11 ///
-Sagitario = 23/11 - 21/12
-Capricornio = 22/12 - 20/01
-*/
