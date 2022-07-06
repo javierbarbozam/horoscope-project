@@ -223,15 +223,101 @@ else if (month_two == "diciembre"){ //DICIEMBRE
     zodiac_two = "Sagitario y Capricornio"
   }
 }
-if (zodiac_one == zodiac_two){
-  compatibility = "compatibles"
+if (zodiac_one == zodiac_two){ // COMPATIBILITY
+  compatibility = "compatibilidad"
+}
+else if(zodiac_one == "Géminis"){ //GÉMINIS
+  if (zodiac_two == "Piscis" || zodiac_two == "Escorpio" || zodiac_two == "Tauro" || zodiac_two == "Cáncer"){
+    compatibility = "incompatibilidad"
+  } else if (zodiac_two == "Libra" || zodiac_two == "Leo" || zodiac_two == "Acuario" || zodiac_two == "Aries"){
+    compatibility = "compatibilidad"
+  } else if (zodiac_two == "Sagitario" || zodiac_two == "Virgo" || zodiac_two == "Capricornio"){
+    compatibility = "compatibilidad media"
+  }
+}
+else if(zodiac_one == "Piscis"){ //PISCIS
+  if (zodiac_two == "Géminis" || zodiac_two == "Libra" || zodiac_two == "Acuario"){
+    compatibility = "incompatibilidad"
+  } else if (zodiac_two == "Escorpio" || zodiac_two == "Tauro" || zodiac_two == "Cáncer" || zodiac_two == "Capricornio"){
+    compatibility = "compatibilidad"
+  } else if (zodiac_two == "Sagitario" || zodiac_two == "Leo" || zodiac_two == "Aries" || zodiac_two == "Virgo"){
+    compatibility = "compatibilidad media"
+  }
+}
+else if(zodiac_one == "Escorpio"){ //ESCORPIO
+  if (zodiac_two == "Géminis" || zodiac_two == "Libra" || zodiac_two == "Acuario" || zodiac_two == "Sagitario"){
+    compatibility = "incompatibilidad"
+  } else if (zodiac_two == "Piscis" || zodiac_two == "Tauro" || zodiac_two == "Cáncer" || zodiac_two == "Capricornio" || zodiac_two == "Virgo"){
+    compatibility = "compatibilidad"
+  } else if (zodiac_two == "Leo" || zodiac_two == "Aries"){
+    compatibility = "compatibilidad media"
+  }
+}
+else if(zodiac_one == "Tauro"){ //TAURO
+  if (zodiac_two == "Géminis" || zodiac_two == "Acuario" || zodiac_two == "Sagitario" || zodiac_two == "Aries"){
+    compatibility = "incompatibilidad"
+  } else if (zodiac_two == "Piscis" || zodiac_two == "Escorpio" || zodiac_two == "Cáncer" || zodiac_two == "Capricornio" || zodiac_two == "Virgo"){
+    compatibility = "compatibilidad"
+  } else if (zodiac_two == "Libra" || zodiac_two == "Leo"){
+    compatibility = "compatibilidad media"
+  }
+}
+else if(zodiac_one == "Tauro"){ //TAURO
+  if (zodiac_two == "Géminis" || zodiac_two == "Acuario" || zodiac_two == "Sagitario" || zodiac_two == "Aries"){
+    compatibility = "incompatibilidad"
+  } else if (zodiac_two == "Piscis" || zodiac_two == "Escorpio" || zodiac_two == "Tauro" || zodiac_two == "Cáncer" || zodiac_two == "Capricornio" || zodiac_two == "Virgo"){
+    compatibility = "compatibilidad"
+  } else if (zodiac_two == "Libra" || zodiac_two == "Leo"){
+    compatibility = "compatibilidad media"
+  }
+}
+else if(zodiac_one == "Libra"){ //LIBRA
+  if (zodiac_two == "Escorpio" || zodiac_two == "Cáncer" || zodiac_two == "Virgo" || zodiac_two == "Capricornio"){
+    compatibility = "incompatibilidad"
+  } else if (zodiac_two == "Géminis" || zodiac_two == "Sagitario" || zodiac_two == "Leo" || zodiac_two == "Acuario"){
+    compatibility = "compatibilidad"
+  } else if (zodiac_two == "Piscis" || zodiac_two == "Tauro" || zodiac_two == "Aries"){
+    compatibility = "compatibilidad media"
+  }
+}
+else if(zodiac_one == "Cáncer"){ //CÁNCER
+  if (zodiac_two == "Géminis" || zodiac_two == "Libra" || zodiac_two == "Acuario" || zodiac_two == "Aries"){
+    compatibility = "incompatibilidad"
+  } else if (zodiac_two == "Piscis" || zodiac_two == "Escorpio" || zodiac_two == "Tauro" || zodiac_two == "Virgo" || zodiac_two == "Capricornio"){
+    compatibility = "compatibilidad"
+  } else if (zodiac_two == "Sagitario" || zodiac_two == "Leo"){
+    compatibility = "compatibilidad media"
+  }
+}
+else if(zodiac_one == "Sagitario"){ //SAGITARIO
+  if (zodiac_two == "Géminis" || zodiac_two == "Libra" || zodiac_two == "Acuario" || zodiac_two == "Aries"){
+    compatibility = "incompatibilidad"
+  } else if (zodiac_two == "Piscis" || zodiac_two == "Escorpio" || zodiac_two == "Tauro" || zodiac_two == "Virgo" || zodiac_two == "Capricornio"){
+    compatibility = "compatibilidad"
+  } else if (zodiac_two == "Sagitario" || zodiac_two == "Leo"){
+    compatibility = "compatibilidad media"
+  }
+}
+else if(zodiac_one == "Cáncer"){ //CÁNCER
+  if (zodiac_two == "Géminis" || zodiac_two == "Libra" || zodiac_two == "Acuario" || zodiac_two == "Aries"){
+    compatibility = "incompatibilidad"
+  } else if (zodiac_two == "Piscis" || zodiac_two == "Escorpio" || zodiac_two == "Tauro" || zodiac_two == "Virgo" || zodiac_two == "Capricornio"){
+    compatibility = "compatibilidad"
+  } else if (zodiac_two == "Sagitario" || zodiac_two == "Leo"){
+    compatibility = "compatibilidad media"
+  }
+}
+else if(zodiac_one == "Cáncer"){ //CÁNCER
+  if (zodiac_two == "Géminis" || zodiac_two == "Libra" || zodiac_two == "Acuario" || zodiac_two == "Aries"){
+    compatibility = "incompatibilidad"
+  } else if (zodiac_two == "Piscis" || zodiac_two == "Escorpio" || zodiac_two == "Tauro" || zodiac_two == "Virgo" || zodiac_two == "Capricornio"){
+    compatibility = "compatibilidad"
+  } else if (zodiac_two == "Sagitario" || zodiac_two == "Leo"){
+    compatibility = "compatibilidad media"
+  }
 }
 
-document.write("Tu signo es " + zodiac_one + " y el signo de tu pareja es " + zodiac_two)
-
-
-
-
+document.write("Tu signo es " + zodiac_one + " y el signo de tu pareja es " + zodiac_two + " y sus signos tienen " + compatibility)
 
 /*
 Acuario = 21/01 - 19/02
